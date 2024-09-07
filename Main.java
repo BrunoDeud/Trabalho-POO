@@ -11,9 +11,9 @@ public class Main {
         var contaVari = a2.calculoVariancia(numerosArray);
         System.out.println(contaVari);
 
-        JurosCompostos a3 = new JurosCompostos(1000.0, 0.5, 5);
+        JurosCompostos a3 = new JurosCompostos(1000.0, 0.05 , 5, 12);
 
         var contaJuros = a3.calculoJuros();
-        System.out.println("Total de juros Composto: " + contaJuros);
+    System.out.println("Total de juros Composto: " + String.format("%.2f" , conta));  
     }
 }
